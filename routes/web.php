@@ -11,6 +11,6 @@ Route::domain('{account}.nomadstrail.co')->group(function () {
         return [
             'userid' => $id,
             'account' => $account
-        ]
+        ];
     });
 });
